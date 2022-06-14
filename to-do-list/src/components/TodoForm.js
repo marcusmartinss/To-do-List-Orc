@@ -18,19 +18,19 @@ function TodoForm(props) {
         setInput('');
     };
 
-  return (
-    <form className='todo-form' onSubmit={handleSubmit}>
-        <input
-            type='text'
-            placeholder='Adicione uma tarefa'
-            value={input}
-            name='text'
-            className='todo-input'
-            onChange={handleChange}
-        />
-        <button className='todo-button'>Adicionar</button>
-    </form>
-  )
+    return (
+        <form className='todo-form' onSubmit={handleSubmit}>
+            <input
+                type='text'
+                placeholder='Adicione uma tarefa'
+                value={input}
+                name='text'
+                className='todo-input'
+                onChange={handleChange}
+            />
+            <button className='todo-button'>Adicionar</button>
+        </form>
+    )
 }
 
 export default TodoForm;
