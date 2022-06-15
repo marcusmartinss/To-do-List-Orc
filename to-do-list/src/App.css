@@ -102,7 +102,7 @@ h1 {
     margin: 4px auto;
     color: #fff;
     background: linear-gradient(90deg,
-            #dec83a 40%,
+            #418736 40%,
             #12482E 80%);
 
     padding: 16px;
@@ -112,20 +112,24 @@ h1 {
 
 .todo-row:nth-child(4n + 1) {
     background: linear-gradient(90deg,
-            #cea233 40%,
+            #2a6930 40%,
             #12482E 80%);
 }
 
 .todo-row:nth-child(4n + 2) {
     background: linear-gradient(90deg,
-            #ca883c 40%,
+            #2b5930 40%,
             #12482E 80%);
 }
 
 .todo-row:nth-child(4n + 3) {
     background: linear-gradient(90deg,
-            #7AC14E 40%,
+            #598c3a 40%,
             #12482E 80%);
+}
+
+.todo-text {
+    font-family: 'Gemunu Libre';
 }
 
 .icons {
